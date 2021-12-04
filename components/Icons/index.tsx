@@ -1,0 +1,8 @@
+export { default as User } from './User'
+export { default as MainWhiteLogo } from './MainWhiteLogo'
+export { default as MainLogo } from './MainLogo'
+export { default as Invest } from './Invest'
+export { default as Check } from './Check'
+export { default as Location } from './Location'
+export { default as CaretDown } from './CaretDown'
+export { default as Play } from './Play'

@@ -4,6 +4,7 @@ import { BuilderComponent, Builder, builder } from '@builder.io/react'
 import DefaultErrorPage from 'next/error'
 import Head from 'next/head'
 import builderConfig from '@config/builder'
+import "@builderComponents/index"
 
 builder.init(builderConfig.apiKey)
 
@@ -67,7 +68,6 @@ export default function Page({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
       <BuilderComponent model="page" content={page} />
     </>
   )
