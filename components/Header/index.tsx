@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="bg-palette4 p-4 px-8 flex flex-row items-center justify-between">
       <MainWhiteLogo />
-      <div className="flex flex-row text-white w-3/5 justify-between">
+      <div className="hidden md:flex flex-row text-white w-1/2 justify-between">
         <div>INVEST</div>
         <div>HOW IT WORKS</div>
         <div>ABOUT</div>
