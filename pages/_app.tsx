@@ -1,3 +1,4 @@
+import '../assets/styles/global.css'
 import type { AppProps } from 'next/app'
 
 import { builder } from '@builder.io/react'
