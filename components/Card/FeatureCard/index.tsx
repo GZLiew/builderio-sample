@@ -1,5 +1,5 @@
 import CheckListItem from '@components/CheckListItem'
-import BaseCard, { BaseCardProps } from './BaseCard'
+import BaseCard, { BaseCardProps } from '../BaseCard'
 
 type Feature = {
   price: string

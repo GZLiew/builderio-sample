@@ -34,7 +34,7 @@ const Button = (props: ButtonProps) => {
 
   return (
     <button
-      className={`rounded-md ${btnSize} ${btnVariant} text-white flex flex-row justify-center items-center outline-none ${btnClass}`}
+      className={`rounded-md ${btnSize} ${btnVariant} text-white flex flex-row justify-center items-center text-left outline-none ${btnClass}`}
       {...otherProps}
     >
       {prepend && <span className="mr-2">{prepend}</span>}

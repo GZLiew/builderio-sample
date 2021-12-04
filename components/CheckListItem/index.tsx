@@ -11,7 +11,7 @@ const CheckListItem = (props: CheckListItemProps) => {
   const IconComp = ICON_MAP[icon] || (() => null)
   return (
     <div className={`flex flex-row justify-start items-center ${className}`}>
-      <IconComp className="mr-4" />
+      <IconComp className="mr-2 w-5 h-5 text-white" />
       <div className="text-white">{label}</div>
     </div>
   )
