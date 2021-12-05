@@ -1,5 +1,4 @@
-import { withChildren } from '@builder.io/react'
-import { Builder } from '@builder.io/sdk'
+import { Builder, withChildren } from '@builder.io/react'
 import { PatternCard as PatternCardComp } from '@components/Card'
 
 export const PatternCard = withChildren(

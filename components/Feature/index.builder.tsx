@@ -1,4 +1,4 @@
-import { Builder } from '@builder.io/sdk'
+import { Builder } from '@builder.io/react'
 import FeatureComp from '@components/Feature'
 
 export const Feature = (props: React.ComponentProps<typeof FeatureComp>) => {
