@@ -5,6 +5,12 @@ import {
   Play,
   CaretDown,
   Location,
+  AmpleLeverage,
+  CapitalAppreciation,
+  Diversity,
+  Flexible,
+  SaveTime,
+  TaxAdvantages,
 } from '@components/Icons'
 
 export const ICON_MAP = {
@@ -15,4 +21,13 @@ export const ICON_MAP = {
   play: Play,
   caretDown: CaretDown,
   none: () => null,
+}
+
+export const FEATURE_ICON_MAP = {
+  AmpleLeverage: AmpleLeverage,
+  CapitalAppreciation: CapitalAppreciation,
+  Diversity: Diversity,
+  Flexible: Flexible,
+  SaveTime: SaveTime,
+  TaxAdvantages: TaxAdvantages,
 }
