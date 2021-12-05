@@ -12,12 +12,14 @@ module.exports = {
         palette6: '#5F98A1',
       },
       fontSize: {
-        '8xl': '6rem'
-      }
+        '8xl': '6rem',
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['last'],
+    },
   },
   plugins: [],
 }

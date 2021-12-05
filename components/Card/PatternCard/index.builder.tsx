@@ -3,8 +3,8 @@ import { PatternCard as PatternCardComp } from '@components/Card'
 
 export const PatternCard = withChildren(
   (props: React.ComponentProps<typeof PatternCardComp>) => {
-    const { children } = props
-    return <PatternCardComp>{children}</PatternCardComp>
+    const { children, ...restProps } = props
+    return <PatternCardComp {...restProps}>{children}</PatternCardComp>
   }
 )
 
@@ -12,5 +12,12 @@ Builder.registerComponent(PatternCard, {
   name: 'PatternCard',
   friendlyName: 'Pattern Card',
   canHaveChildren: true,
-  inputs: [],
+  inputs: [
+    {
+      name: 'rounded',
+      friendlyName: 'Background rounded',
+      type: 'boolean',
+      defaultValue: false,
+    },
+  ],
 })
