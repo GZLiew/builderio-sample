@@ -4,7 +4,7 @@ type TitleHeadingProps = {
 
 const TitleHeading = (props: TitleHeadingProps) => {
   const { label } = props
-  return <div className="big-title-font">{label}</div>
+  return <h2 className="text-4xl md:text-5xl">{label}</h2>
 }
 
 export default TitleHeading
